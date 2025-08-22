@@ -11,7 +11,7 @@ firefox_options.add_argument("--proxy-server=socks5://151.242.117.99")  # Адр
 firefox_options.add_argument("-private")  # Запуск в приватном режиме
 
 # Укажи путь к GeckoDriver
-service = FirefoxService(executable_path='/Users/mac/Downloads/geckodriver')  # Путь к GeckoDriver
+service = FirefoxService(executable_path='GeckoDriver/geckodriver')  # Путь к GeckoDriver
 
 # Инициализация драйвера
 driver = webdriver.Firefox(service=service, options=firefox_options)
